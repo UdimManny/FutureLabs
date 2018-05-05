@@ -1,0 +1,226 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "bootstrap/css/bootstrap";
+$theme-colors: (
+  "manny": #4d0026
+);
+
+/*HEADER*/
+#logo-img{background:url(../images/logo.png);
+height: 150px;
+width:150px;
+margin: 15px 10px 15px 0px;}
+
+body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+#Hero{height:600PX;
+    background:
+    linear-gradient(to bottom right,rgba(0,0,0,0.5) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 0 0/35% 100% no-repeat,
+    url(../images/bg-01.jpg) center/cover no-repeat;
+
+color:#ffffff;}
+#services{position: relative;
+    padding-bottom: 70px;
+    padding-top: 70px;
+background-color: #f9f9f9;}
+
+#codelabs{position: relative;
+padding-bottom: 70px;
+padding-top:15px;}
+
+#gallery{background-image: linear-gradient(to bottom right,
+    rgba(33, 13, 148, 0.551),rgba(0, 0, 0, 0.933) ),
+    url(..images/web-developer.jpg);
+background-size: cover;
+position:relative;
+padding-bottom: 70px;}
+
+
+#blog{display: flex;
+padding-bottom: 40px;}
+
+.blue{color: #ffffff;
+padding-bottom: 30px;}
+
+footer{background-color: #4d4d4d;
+    color: #ffffff;
+position: relative;
+padding-bottom: 50px;
+padding-top: 50px;}
+
+li{display: inline-block;}
+ 
+
+h1{
+    display: inline-block;
+font-size: 330%;}
+h2{padding-bottom: 40px;
+padding-top: 40px;
+font-weight: bold;}
+div.desc{font-size: 20px;
+    Font-weight: 700;
+}
+h1.logo{padding-top:50px;
+padding-left: 0px;
+color: #ffffff;}
+
+.btn-danger{margin-bottom: 30px;}
+
+/* top links */
+ul.links .btn{padding-top: 50px;
+    color:white;
+padding-right: 0px;
+position: relative;;
+}
+ul.links .btn:hover{color: aqua;
+font-size: 150%;}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/* About Us Styling Starts */
+
+#about-hero{background-image: linear-gradient(
+    rgba(34, 13, 148, 0.507),rgba(0, 0, 0, 0.9) ),
+    url(../images/about-hero.JPG);
+background-size: cover;
+position:relative;
+padding-bottom: 70px;
+display:flex;
+height: 600px;}
+h1.about, .top{color:white;
+    z-index: 1;
+}
+#intro{padding-bottom: 50px;
+padding-top: 50px;}
+#counter{background-color: #f0f0f0;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+h3.count{color: #4d0026;
+font-size: 400%}
+#about-gallery{padding-bottom: 50px;
+padding-top: 20px;}
+h1.our{padding-bottom: 50px;
+padding-top: 50px;}
+h1.middle{position: relative;
+top:200px;
+color: #ffffff;}
+
+/* About Us styling ends */
+
+/* Contact Us Styling Starts */
+
+#contact-hero{background-image: linear-gradient(
+    rgba(34, 13, 148, 0.507),rgba(0, 0, 0, 0.9) ),
+    url(../images/about-hero.JPG);
+background-size: cover;
+position:relative;
+padding-bottom: 70px;
+display:flex;
+height: 600px;}
+
+#mail{background-color: #f0f0f0;
+padding-top: 70px;
+padding-bottom: 70px;}
+
+h2.message{color:#1100aa}
+ul#footer-social .fa{color: #ffffff;
+position: relative;}
+
+.btn-danger:hover {
+    color: #dc3545;
+    background-color: #fff;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    color:#007bff ;
+    background-color: #fff;
+    border-color: #007bff;
+}
+
+/* ul#contact.fa{color: #ffffff;
+     font-size: 40px; 
+    border:3px #fff  solid;
+    border-radius: 50%;
+   border-radius: 50%;
+   width: 42px;
+    height: 42px;
+    font-size: 30px;} */
+ 
+
+div.icons{background-color:#001f4d; color:white;}
+.btn-info {
+    color: #fff;
+    background-color:#4d0026;
+        color: #fff;
+        border-color: #4d0026;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .btn-info:hover {
+        color: #4d0026;
+        background-color:#fff;
+            border-color: #4d0026;
+        }
+        img.logo2{padding-top: 50px;}
+        p.footer{color:rgb(148, 147, 147)}
+
+        #footer-social a:nth-child(1) i:hover {
+            color: #d34836;
+        }
+        
+        #footer-social a:nth-child(2) i:hover {
+            color: #4099FF;
+        }
+        
+        #footer-social a:nth-child(3) i:hover {
+            color: #b31217;
+        }
+        
+        #footer-social a:nth-child(4) i:hover {
+            color: #FF6600;
+        }
+        #footer-social a:nth-child(4) i:hover {
+            color: #FF6600;
+        }
+    
+
+        .slideanim {visibility:hidden;}
+        .slide {
+            /* The name of the animation */
+            animation-name: slide;
+            -webkit-animation-name: slide; 
+            /* The duration of the animation */
+            animation-duration: 1s; 
+            -webkit-animation-duration: 1s;
+            /* Make the element visible */
+            visibility: visible; 
+        }
+        
+        /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            } 
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            } 
+        }
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            } 
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }

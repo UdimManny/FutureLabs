@@ -7,39 +7,124 @@ $theme-colors: (
 );
 
 /*HEADER*/
-#logo-img{background:url(../images/logo.png);
-height: 150px;
-width:150px;
-margin: 15px 10px 15px 0px;}
 
 body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
-#Hero{height:600PX;
+/* header carousel starts*/
+.one{
+    height:670px;
+    width: 100%;
     background:
-    linear-gradient(to bottom right,rgba(0,0,0,0.5) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
-    linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 0 0/35% 100% no-repeat,
-    url(../images/bg-01.jpg) center/cover no-repeat;
+    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    url(../images/achievement-agreement-arms-1068523.jpg) center/cover no-repeat;
+    color:#ffffff;
+    
+    }
+   
 
-color:#ffffff;}
+.two{
+    height:670px;
+    width: 100%;
+    background:
+    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    url(../images/alarm-clock-calendar-close-up-908298.jpg) center/cover no-repeat;
+    color:#ffffff;
+}
+
+.three{
+    height:670px;
+    width: 100%;
+    background:
+    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    url(../images/bg-01.jpg) center/cover no-repeat;
+    color:#ffffff;
+    }
+
+.red{
+    color:#4d0026;
+}
+#us{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+}
+.welcome{
+    color: #5C5A5D;
+}
+p.ben{
+    font-size: 1.5em;
+}
+h2.ben2{
+    font-size: 2.5em;
+}
+h1.man{
+    padding-top: 150px;
+    font-family: roboto;
+}
+.navbar-brand{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    padding-left: 100px;
+}
 #services{position: relative;
     padding-bottom: 70px;
     padding-top: 70px;
-background-color: #f9f9f9;}
+background-color:#f7f7f7;}
 
 #codelabs{position: relative;
 padding-bottom: 70px;
-padding-top:15px;}
+padding-top:15px;
+background-color: #f9f9f9;}
 
 #gallery{background-image: linear-gradient(to bottom right,
-    rgba(33, 13, 148, 0.551),rgba(0, 0, 0, 0.933) ),
+    rgba(148, 13, 130, 0.551),rgba(0, 0, 0, 0.933) ),
     url(..images/web-developer.jpg);
 background-size: cover;
 position:relative;
 padding-bottom: 70px;}
+.fine{
+    object-fit: cover;
+    
+}
+/* BLOG CSS Starts here*/
+#blog{
+    color:#717171;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.date{
+    font-size: 10pt;
+    font-family: 'Open sans';
+    margin: 5px 0 0 0;
+    text-align: left;
+}
+h4.blog{text-align: left;
+    color:#717171;  
+}
+h4.blog:hover{text-align: left;
+    color:#4d0026;
+    cursor: pointer;  
+}
+.line{ height: 4px;
+    width: 25%;
+    background-color:#4d0026;
 
-
-#blog{display: flex;
-padding-bottom: 40px;}
-
+}
+.blog-text{
+    font-size: 16px;
+    font-family: lato;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+/* Blog Css ends here */
 .blue{color: #ffffff;
 padding-bottom: 30px;}
 
@@ -52,12 +137,13 @@ padding-top: 50px;}
 li{display: inline-block;}
  
 
-h1{
+/* h1{
     display: inline-block;
-font-size: 330%;}
+font-size: 330%;} */
 h2{padding-bottom: 40px;
 padding-top: 40px;
-font-weight: bold;}
+font-weight: bold;
+color: #333;}
 div.desc{font-size: 20px;
     Font-weight: 700;
 }
@@ -101,6 +187,9 @@ padding-top: 50px;}
 padding-bottom: 30px;
 padding-top: 30px;
 }
+h3{
+    color: #333;
+}
 h3.count{color: #4d0026;
 font-size: 400%}
 #about-gallery{padding-bottom: 50px;
@@ -143,20 +232,27 @@ position: relative;}
     background-color: #fff;
     border-color: #007bff;
 }
-
-/* ul#contact.fa{color: #ffffff;
-     font-size: 40px; 
-    border:3px #fff  solid;
+.footer-social i.fa {
+    display: inline-block;
     border-radius: 50%;
-   border-radius: 50%;
-   width: 42px;
-    height: 42px;
-    font-size: 30px;} */
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    color:#fff
+  
+  }
+/* Footer starts here */
+  .footer-social i.fa:hover{color:grey;}
+
+  .fa-facebook{background-color:#3B5998 }
+  .fa-twitter{background-color:#1DA1F2 }
+  .fa-linkedin{background-color:#0077B5 }
+  .fa-github{background-color:#bd2c00 }
  
 
-div.icons{background-color:#001f4d; color:white;}
+div.icons{
+            background-color:#001f4d; 
+            color:white;}
 .btn-info {
-    color: #fff;
     background-color:#4d0026;
         color: #fff;
         border-color: #4d0026;
@@ -224,3 +320,144 @@ div.icons{background-color:#001f4d; color:white;}
                 -webkit-transform: translateY(0%);
             }
         }
+
+        /*Image overlay setting*/
+        .ara {
+            position: relative;
+            width: 100%;
+          }
+          
+          .image {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          
+          .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(143, 91, 130);
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            -webkit-transform:scale(0);
+            transition: .3s ease;
+          }
+          
+          .ara:hover .overlay {
+            transform: scale(1)
+          }
+          
+          .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: justify;
+          }
+           h3.white{
+              color: #fff;
+          }
+/* Footer starts here */
+  .footer-social i.fa:hover{color:grey;}
+
+  .fa-facebook{background-color:#3B5998; }
+  .fa-twitter{background-color:#1DA1F2; }
+  .fa-linkedin{background-color:#0077B5;
+margin-left: 3px; }
+  .fa-github{background-color:#bd2c00; }
+
+  /*start codelab rollers*/
+  .mySlides {
+    display: none;
+}
+.heroSlide{
+    display: none;
+}
+.next {
+    cursor: pointer;
+    transition: 0.6s ease;
+    color:#ffffff; 
+    background-color:#4d0026; 
+    position:absolute; 
+    right:12px; 
+    bottom:-1px; 
+    border-radius:50%; 
+    border:#ffffff 1px shadow
+   
+  }
+/* On hover, add a black background color with a little bit see-through */
+  .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    0% {transform: scale(1)} 
+    100% {transform: scale (1.4)}
+  }
+  
+  @keyframes fade {
+    0% {transform: scale(1)} 
+    100% {transform: scale (1.4) }
+  }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .align{
+      text-align: justify
+  }
+
+  .square {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 20%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    top: -30px;
+  }
+  /* Fading animation */
+  @keyframes fade {
+    from {
+      opacity: 0.0;
+    }
+    to {
+      opacity: 1.0;
+    }
+}
+@keyframes zoom {
+    from {
+      transform: scale(1.0);
+    }
+    to {
+      transform: scale(1.16);
+    }
+}

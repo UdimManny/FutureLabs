@@ -9,72 +9,147 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+       <link rel="stylesheet" type="text/css" href="css/animate.css">
     <script src="css/main.js"></script>
     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     
 
 
 </head>
 <body>
-    <section id="Hero" >
+     <!-- sticky header starts-->
+     <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-default navbar-left fixed-top"
+             style="background-color: #000000; opacity: 1;">
+                    <a class="navbar-brand" href="#"><span class="red">A</span>gency</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">Services<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="projects.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="blog.html">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+          
+    </header>
+    <!--Header ends-->
+    
+    <section id="hero">
+        <div class="heroSlide zoomIn  one">
         <div class="container" >
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="images/logo.png" class="logo2">
-                   
-                   
-                    
-                </div>
-                <div class="col-sm-6"> <ul class="nav links justify-content-end">
-                        <a href="#" class="btn btn-link"><li>Home</li></a>
-                            <a href="about.html" class="btn btn-link"><li>About</li></a> 
-                            <a href="contact.html" class="btn btn-link"><li>Contact Us</li></a>
-                            <a href="services.html" class="btn btn-link"><li>Services</li></a>
-                            <a href="blog.html" class="btn btn-link"><li>Blog</li></a>
-            </ul></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 align-items-center">
-                    <h1 class="top text-left align-middle">We Create, We Innovate, We Connect!</h1>
-                    <p class="top text-left">The future was created by men who dreamt it to be better than they met it, Men who were crazy 
-                        enough to believe they could change the world changed it.
-                        Tribute to Steve Jobs, Nelson Mandela, Martin Luther King Jnr, Satoshi Natoshi, Elon Musk, Jack Ma, Gani Fawehinmi, and every other original out there making
-                        a difference.<br> In that same spirit we Arise!!
+                <div class="col-sm-6  align">
+                    <h1 class="align man">We Strategize</h1>
+                    <p class="align">Strategy is at the heart of any success. We take our time sifting through data
+                        and building relationships. Other times a rhetorical question and intuition lays bare the path.
+                        We are masters of digital strategy across all major spectra.
                     </p>
-                    <a href="about.html"><button class="btn btn-info ">Learn More</button></a>
+                    <a href="about.html"><button class="btn btn-info">Learn More</button></a>
                     <br>
                 </div>
             </div>
+            </div>
         </div>
-    </section>
-<section id="services">
-        <div class="container text-center slideanime">
+        
+        <div class="heroSlide zoomIn two">
+            <div class="container" >
                 <div class="row">
-                    <div class="col-sm-12">
-                            <h2>What We offer</h2>
+                    <div class="col-sm-6  align">
+                        <h1 class="align man">We Build!</h1>
+                        <p class="align">The future was created by men who dreamt it to be better than they met it, Men who were crazy 
+                            enough to believe they could change the world changed it.
+                            Tribute to Steve Jobs, Nelson Mandela, Martin Luther King Jnr, Satoshi Natoshi, Elon Musk, Jack Ma, Gani Fawehinmi, and every other original out there making
+                            a difference.<br> In that same spirit we Arise!!
+                        </p>
+                        <a href="about.html"><button class="btn btn-info">Learn More</button></a>
+                        <br>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <div class="heroSlide zoomIn  three">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-sm-6 align-items-center align">
+                        <h1 class="align man">We tell stories!</h1>
+                        <p class="align">We are multi-potentialites with an innate gifting for telling
+                            compelling stories. We craft stories about products and services that our target niche 
+                            finds relatable and actionable.
+                        </p>
+                        <a href="about.html"><button class="btn btn-info">Learn More</button></a>
+                        <br>
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!-- <div style="text-align:center">
+            <span class="square" onclick="currentSlide(1)"></span> 
+            <span class="square" onclick="currentSlide(2)"></span> 
+            <span class="square" onclick="currentSlide(3)"></span> 
+          </div> -->
+         <script src="js/hero-slider.js"></script>
+    </section>
+    <!--Hero section ends-->
+   
+   <section id="us" class= "wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.2s">
+       <div class="container">
+           <div class="row">
+               <div class="offset-sm-2 col-sm-8 text-center welcome">
+                   <h2 class="ben2">We create indelible digital experiences</h2>
+                   <p class="ben">We are passsionate corporate & content strategists.
+                       We tell compelling stories and  create relatable content 
+                       about products and services that drives brand adoption.
+                   </p>
+               </div>
+           </div>
+       </div>
+   </section>
+<section id="services" class= "wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.4s">
+        <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+                            <h2>Our Niches</h2>
                             <hr style="background-color:#4d0026; width:120px; height:3px">
                     <br></div>
                 </div>
                 <div class="row">
                
                         <div class="col-sm-4">
-                                <i class="fa fa-plane" style="font-size:70px; color:#4d0026;"></i>
-                            <h3>Trainings</h3>
+                                <i class="fa fa-diamond" style="font-size:70px; color:#4d0026;"></i>
+                            <h3>Strategy</h3>
                             
-                            <p class="text-left">
-                                We teach beginners to code, polish up intermediate developers and provide start up incubation for advanced developers.  
-                                Do you have the next earth shaking idea - Bitcoin, Paypal, iPhone or Facebook? - come turn your idea to reality.
+                            <p class="align">
+                                We develop corporate strategies to set your brand apart from the rest. Content and brand strategizing - our
+                                forte - is at the heart
+                                of digital marketing . We enhance your brand visibility with data backed methods that deliver results.
                             </p>
                 
                         </div>
                         <div class="col-sm-4">
-                                <i class="fa fa-apple" style="font-size:70px; color:#4d0026;"></i>
-                                <h3>Web Development</h3>
+                                <i class="fa fa-rocket" style="font-size:70px; color:#4d0026;"></i>
+                                <h3>Web & App Development</h3>
                                 
-                                <p class="text-left">
-                                    Do you  have a project you want to bring to life? Web? Android? ios? No matter the platform we have developers that
+                                <p class="align">
+                                    We are masters of the web and native. No matter the stack your project requires, we have developers that
                                      will bring
                                     your ideas to life, our purpose is delivering cost effective solutions that will keep your brand ahead of the
                                      competition.
@@ -82,20 +157,50 @@
                     </div>
                     <div class="col-sm-4">
                             <i class="fa fa-pencil" style="font-size:70px; color:#4d0026;"></i>
-                            <h3>UI/UX Design</h3>
+                            <h3>UI/UX</h3>
                             
-                            <p class="text-left">
-                            We think in design and see with the eyes of imagination. we design user interfaces, draw in colors and ensure your users stay absorbed on you platform.
-                            We also engage in the design of Magazines, Brochures etc. Our Watchword is excellence. 
+                            <p class="align">
+                            We think in design and see with imagination. we design user interfaces, draw in colors and ensure your users stay absorbed on your platform.
+                            Be it Magazines, Brochures, Digital interfaces, etc. Our Watchword is excellence. 
                             </p>
                 </div>
+                <div class="w-100"></div>
+                <div class="col-sm-4">
+                    <i class="fa fa-android" style="font-size:70px; color:#4d0026;"></i>
+                    <h3>Native</h3>
+                    
+                    <p class="align">
+                        From Android to iOS development, we build and ship your native apps using a variety of technologies. Our
+                        design and execution are always intuitive and flawless. We build for retention.
+                    </p>
+        </div>
+        <div class="col-sm-4">
+            <i class="fa fa-bitcoin" style="font-size:70px; color:#4d0026;"></i>
+            <h3>Fintech</h3>
+            
+            <p class="align">
+            Blockchain powered finance is the future. We are part of the tokenizing race. Imagine a world 
+            where freedom is the program,
+            your wallets anonymously banks you, and crypto mining
+            and  smart contracts reduces extreme poverty?
+            </p>
+</div>
+<div class="col-sm-4">
+    <i class="fa fa-cogs" style="font-size:70px; color:#4d0026;"></i>
+    <h3>Hardware</h3>
+    
+    <p class="align">
+    From electric cars to Mars bound rockets, drones and enhanced robots. The future is optimized hardware.
+    We are pushing the frontiers of hardware. That was what we started with. 
+    </p>
+</div>
            </div> 
         </div>
         </section>
 
-        <section id="codelabs">
+        <!-- <section id="codelabs">
                 <div class="container">
-                        <div class="row slideanime">
+                        <div class="row">
                                 <div class="col-sm-12">
                                     <h2 class="text-center">Trainings Held</h2>
                                     <hr style="background-color:#4d0026; width:120px; height:3px">
@@ -109,31 +214,80 @@
                                     </div>
                                     <div class="col-sm-8">
                                             <div class="row">
-                                                    <div class="card">
+                                                    <div class="card mySlide fadeIn">
                           
                                                             <div class="row">
                                                                 
                                                                     
-                                                                    <div class="col-md-6">
-                                                                            <div class="card-img-bottom">
-                                                                                    <img src="images/facebook.jpg" class="card-img-bottom" width="300" height="300">
-                                                                            </div>
-                                                                          </div>
+            <div class="col-md-6">
+              <div class="card-img-bottom">
+         <img src="images/facebook.jpg" class="card-img-bottom" width="300" height="300">
+                         </div>
+                </div>
                                         
-                                                              <div class="col-md-6" style="margin-left:0px; margin-right:0px;">
+                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
                                                                 <div class="card-block">
                                                                   <h3 class="card-title text-center">Code Lab Sessions</h3>
                                                                   <p>We roll like bosses, Mark has been here, even Natoshi came around. 
                                                                       The nations foremost finance lab was birthed here. We taking over from 
                                                                         the heart of Africa by taking the Jack Ma approach.We roll like bosses, 
                                                                         Mark has been here, even Natoshi came around. The nations foremost finance lab was birthed here.</p>
-                                                                    <!-- </p>
-                                                                    <p>We roll like bosses, Mark has been here, even Natoshi came around. The nations foremost finance lab was birthed here. We taking over from 
-                                                                            the heart of Africa by taking the Jack Ma approach.
-                                                                        </p> -->
-                                                                  <a href="#" class="btn btn-info">Read More</a>
-                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow" style="color:#ffffff; background-color:#4d0026; position:absolute; right:12px; bottom:-1px; 
-                                                                  border-radius:50%; border:#ffffff 1px shadow"; ></i>
+                                                                    
+                                                                  <a class="btn btn-info">Read More</a>
+                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)"></i>
+                                                                </div>
+                                                              </div>
+                                                              
+                                                             
+                                                            </div>
+                                                           
+                                                          </div>
+                                                          <div class="card mySlide fade">
+                          
+                                                            <div class="row">
+                                                                
+                                                                    
+            <div class="col-md-6">
+              <div class="card-img-bottom">
+         <img src="images/meetups.JPG" class="card-img-bottom" width="300" height="300">
+                         </div>
+                </div>
+                                        
+                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
+                                                                <div class="card-block">
+                                                                  <h3 class="card-title text-center">HNG</h3>
+                                                                  <p>According to Mr.David Inyangetoh, the Hotels.ng internship is a movement and we 
+                                                                      encouraged our interns to join in and learn real life coding experience.
+                                                                    Mr.Mark has been nurturing great talent per season of the competition . </p>
+                                                                    
+                                                                  <a  class="btn btn-info" >Read More</a>
+                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)" ></i>
+                                                                </div>
+                                                              </div>
+                                                              
+                                                             
+                                                            </div>
+                                                           
+                                                          </div>
+                                                          <div class="card mySlide fade">
+                          
+                                                            <div class="row">
+                                                                
+                                                                    
+            <div class="col-md-6">
+              <div class="card-img-bottom">
+         <img src="images/coders.JPG" class="card-img-bottom" width="300" height="300">
+                         </div>
+                </div>
+                                        
+                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
+                                                                <div class="card-block">
+                                                                  <h3 class="card-title text-center">Freecodecamp</h3>
+                                                                  <p>Our best developers were forged on Freecodecamp. It now comes with revised curriculum, longer practices
+                                                                      and everything you could think of on a paid platform, but ironically it's free. Thank you Ossia.
+                                                                  </p>                                                  
+                                                                  <a class="btn btn-info">Read More</a>
+                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)" ></i>
                                                                 </div>
                                                               </div>
                                                               
@@ -145,186 +299,227 @@
                                     </div>
                                     
                                 </div>
+                               
                                 
                 </div>
-              </section>
+                <div style="text-align:center">
+                        <span clascs="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                      </div>
+                <script src="js/training-slider.js">
+        
+       
+ </script>
+              </section> -->
 
 
-            <!-- <section id="codelabs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="text-center">Trainings Held</h2>
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="row ">
-                            
-                                <div class="col-sm-6">
-                                    
-                                    <img src="images/facebook.jpg" class="card-img-bottom" width="300" height="300">
-                                </div>
-                                <div class="col-sm-6 text-left">
-                                        <div class="card-block">
-                                                <h3>Code Lab Sessions</h3>
-                                                <p>We roll like bosses, Mark has been here, even Natoshi came around. The nations foremost finance lab was birthed here. We taking over from 
-                                                    the heart of Africa by taking the Jack Ma approach.
-                                                </p>
-                                                <p>We roll like bosses, Mark has been here, even Natoshi came around. The nations foremost finance lab was birthed here. We taking over from 
-                                                        the heart of Africa by taking the Jack Ma approach.
-                                                    </p>
-                                                <button class="btn btn-info">Learn More</button>
-                                        </div>
-                                    
-                                </div>
-                                
-                            </div>
-                </div>
-                
-            
-            </div>  
-</section> -->
+           
 
 </section>
-<section id="gallery">
-    <div class="container-fluid">
-        <div class="row slideanime">
+<!--project begins-->
+
+<section id="gallery" class= "wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
             <div class="col-sm-12">
                 <h2 class="text-center blue" >Projects Worked On</h2>
                 <hr style="background-color:#ffffff; width:120px; height:3px;">
                 <br>
             </div>
         </div>
-        <div class="row no-gutters text-center">
-            <div class="col-sm-4">
-               
-               
-               
-    <a href="#"><img src="images/jikota.jpg" width="300px" height="300px"></a> 
-            </div>
-            <div class="col-sm-4">
-                    <a href="#"><img src="images/pen.jpg" width="300px" height="300px"></a>
-                </div>
-                <div class="col-sm-4">
-                        <a href="#"><img src="images/arrow.jpg" width="300px" height="300px"></a>
-                    </div>
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4">
                     
+                    <div class="ara">
+             <a href="https://udimobong.wordpress.com/2016/02/07/nigeria-the-challenge-of-diversification-and-industrialisation/" 
+             target="_blank"> 
+             <img class="card-img-top" src="images/ecta.jpg" width="300px" height="" 
+             alt="Card image cap"> </a>
+             <div class="overlay">
+                <div class="text text-center"><h3 class="white">Ecta.io</h3>
+                <p> Ecta.io is a Blockchain & AI
+                    focused freelance platform.
+                </p>
+                <a href="https://ecta.io" target="_blank"><button class="btn btn-info">Go</button></a>
         </div>
+              </div>
+            
+            </div></div>
+          
+               <div class="col-sm-6 col-md-4">
+                    <div class="ara">
+                   <a href="https://udimobong.wordpress.com/2016/07/25/what-exactly-is-buhari-offering-us/">
+              <img  class="card-img-top " src="images/ecta.jpg" width="300px" height="" 
+              alt="Card image cap" target="_blank" style="object-fit: cover;">
+             </a>
+             <br>
+             
+            
+             <div class="overlay">
+                <div class="text text-center">
+                    <h3 class="white">Humble</h3>
+                <p>HF is a home finishing specialist demonstrating the power 
+                    of paradox.
+                </p>
+                <a href="http://humblefinishings.com.ng" target="_blank"><button class="btn btn-info">Go</button></a>
+            </div>
+              </div>
+            </div></div>
+            <div class="col-sm-6 col-md-4">
+                    
+                <div class="ara">
+         <a href="https://udimobong.wordpress.com/2016/02/07/nigeria-the-challenge-of-diversification-and-industrialisation/" 
+         target="_blank"> 
+         <img class="card-img-top" src="images/ecta.jpg" width="300px" height="" 
+         alt="Card image cap"> </a>
+         <div class="overlay">
+            <div class="text text-center"><h3 class="white">T-Dombai</h3>
+            <p>Engineering experts focused on power generation and distribution.
+            </p>
+            <a href="http://techno-dombai.com.ng" target="_blank"><button class="btn btn-info">Go</button></a>
+        </div>
+          </div>
+        
+        </div></div>
+    </div>
 
     </div>
 </section>
-<section id="blog">
-<div class="container text-center">
-    <div class="row slideanime">
+<section id="blog" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+<div class="container">
+    <div class="row">
         <div class="col-sm-12">
-            <h2 class="text-center">Read More On Our Blog</h2>
-            <hr style="background-color:#4d0026; width:150px; height:3px">
+            <h2 class="text-center">Featured Posts</h2>
+            <!-- <div class="line"></div> -->
             <br>
         </div>
     </div>
-    <div class="card-deck">
+
+<div class="row">
+    <div class="col-sm-4">
+        <a href="http://udimobong.wordpress.com">
+            <img class="card-img-top" src="images/fb start.jpg_large" width="300px" height="300px" alt="Card image cap">
+            <h4 class="blog">Facebook Startup Accelerator</h4>
+            <div class="date">
+                8 July, 2018
+            </div>
+            <div class="line">
+
+            </div>
+            <div class="blog-text">
+                    I have serious passion for UI effects, animations and 
+                    creating intuitive, dynamic user experiences.
+            </div>
+        </a></div>
+    
+        <div class="col-sm-4">
+                <a href="http://udimobong.wordpress.com">
+                    <img class="card-img-top" src="images/August.JPG" width="300px" height="300px" alt="Card image cap">
+                    <h4 class="blog">Facebook Startup Accelerator</h4>
+                    <div class="date">
+                        8 July, 2018
+                    </div>
+                    <div class="line">
+        
+                    </div>
+                    <div class="blog-text">
+                            I have serious passion for UI effects, animations and 
+                            creating intuitive, dynamic user experiences.
+                    </div>
+                </a></div>
+                <div class="col-sm-4">
+                        <a href="http://udimobong.wordpress.com">
+                            <img class="card-img-top" src="images/meetups.JPG" width="300px" height="300px" alt="Card image cap">
+                            <h4 class="blog">Facebook Startup Accelerator</h4>
+                            <div class="date">
+                                8 July, 2018
+                            </div>
+                            <div class="line">
+                
+                            </div>
+                            <div class="blog-text">
+                                    I have serious passion for UI effects, animations and 
+                                    creating intuitive, dynamic user experiences.
+                            </div>
+                        </a></div>
+    </div>
+</div>
+
+
+
+
+    <!-- <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="images/Facebook.jpg" width="300px" height="300px" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Facebook Developer Circle</h5>
-            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            <img class="card-img-top" src="images/fb start.jpg_large" width="300px" height="300px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Facebook Startup Accelerator</h5>
+              
+            </div>
           </div>
-        </div>
         <div class="card">
           <img class="card-img-top" src="images/August.jpg" width="300px" height="300px" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">August Trainings</h5>
-            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="Images/meetups.jpg" width="300px" height="300px" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">TEEF Grant</h5>
-            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+           
           </div>
         </div>
-</div>
+</div> -->
 </div>
 </section>
 
 <footer>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <h1 class="footer">eAcademy</h1>
-                    
-                    </div> 
+                        <h4>About Us</h4>
+                    <p class="footer">The world was built by men who dreamt of the impossible and acted on their convictions,
+                        think of Mandela, Martin Luther, Steve Jobs, Satoshi Nakamoto, et al. Our mission is to raise hybrid
+                        tech giants that will rewrite the African tech story by bridging the African and global manpower deficit.</p>
+                                        </div> 
                 <div class="col-sm-4">
+                    <div class="arrange">
                     <h4>CONTACTS</h4>
-                    <p class="footer"><span class="fa fa-map-marker"></span> eAcademy, Jimiel Computers, Ikot-Ekpene, Nigeria</p>
-                    <p class="footer"><span class="fa fa-mobile-phone"></span> +2347032400529</p>
-                    <p class="footer"><span class="fa fa-envelope"></span> info@eAcademy.com.ng</p>
-                    <ul id="footer-social">
-                        <li><a href="http://behance.com/UdimManny" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                        <li><a href="http://www.twitter.com/udimobong" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-                        <li><a href="http://www.facebook.com/manassehv" target="_blank"><i  class="fa fa-facebook fa-2x"></i></a></li>
-                        <li><a href="http://www.instagram.com/udimmanny" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
-                        <li><a href="http://github.com/UdimManny" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-                    </ul>     </div>
+                    <p class="footer"><span class="fa fa-map-marker"></span>312 Newark Lane,New Jersey, U.S.A</p>
+                    <p class="footer"><span class="fa fa-mobile-phone"></span> +160726007432</p>
+                    <p class="footer"><span class="fa fa-envelope"></span> info@eAcademy.com</p>
+                    <ul class="footer-social">
+                        <li><a href="http://www.twitter.com/udimobong" target="_blank"><i class="fa fa-twitter " title="Twitter" ></i></a></li>
+                        <li><a href="http://www.facebook.com/manassehv" target="_blank"><i  class="fa fa-facebook" title="Facebook"></i></a></li>
+                        <li><a href="http://www.linkedin.com/udimmanny" target="_blank"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
+                        <li><a href="http://github.com/UdimManny" target="_blank"><i class="fa fa-github " title="GitHub"></i></a></li>
+                    </ul>     </div></div>
                 <div class="col-sm-4">
                     <h4>Let's Get In Touch!</h4>
-                   <p class="footer"> Interested in our work? Send us a note so we could work together with you to deliver
-                        world class STEM services. We are passionate and committed about what we do.</p>
-                   <form action="#">
-                        <input type="text"  placeholder="Email" required>
-                   <button class="btn btn-info">Send</button>
-                </form>
+                   <p class="footer"> Sign up to recieve our newsletters about industry trends.</p>
+                        <form class="form-inline">
+                            
+                                <input class="form-control w-75 mr-sm-2" type="search" placeholder="Enter your Email" aria-label="Search">
+                                <button class="btn btn-info my-2 my-sm-0" type="submit">Send</button>
+                              </form>
                 </div>
             </div>
         </div>
     </footer>
-    <script>
-        $(document).ready(function(){
-        //   // Add smooth scrolling to all links in navbar + footer link
-        //   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-        //     // Make sure this.hash has a value before overriding default behavior
-        //     if (this.hash !== "") {
-        //       // Prevent default anchor click behavior
-        //       event.preventDefault();
-        
-        //       // Store hash
-        //       var hash = this.hash;
-        
-        //       // Using jQuery's animate() method to add smooth page scroll
-        //       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        //       $('html, body').animate({
-        //         scrollTop: $(hash).offset().top
-        //       }, 900, function(){
-           
-        //         // Add hash (#) to URL when done scrolling (default click behavior)
-        //         window.location.hash = hash;
-        //       });
-        //     } // End if
-        //   });
-          
-          $(window).scroll(function() {
-            $(".slideanim").each(function(){
-              var pos = $(this).offset().top;
-        
-              var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                  $(this).addClass("slide");
-                }
-            });
-          });
-        })
-        </script>
+    
     <section id="block" style="background-color:#4d0026; border: 4px #4d0026 solid; height:20px;">
         
             
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js" ></script>
+       <script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+    </script>
    
 </body>
 </html>

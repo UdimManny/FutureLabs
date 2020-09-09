@@ -1,21 +1,23 @@
-// Custom.scss
+/* // Custom.scss
 // Option A: Include all of Bootstrap
 
 @import "bootstrap/css/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 $theme-colors: (
   "manny": #4d0026
-);
+); */
 
 /*HEADER*/
 
-body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+body{font-family:'Lato', sans-serif;
+    overflow-x: hidden;}
 /* header carousel starts*/
 .one{
     height:670px;
     width: 100%;
     background:
-    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
-    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
     url(../images/achievement-agreement-arms-1068523.jpg) center/cover no-repeat;
     color:#ffffff;
     
@@ -26,8 +28,8 @@ body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida
     height:670px;
     width: 100%;
     background:
-    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
-    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
     url(../images/alarm-clock-calendar-close-up-908298.jpg) center/cover no-repeat;
     color:#ffffff;
 }
@@ -36,19 +38,208 @@ body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida
     height:670px;
     width: 100%;
     background:
-    linear-gradient(to bottom right,rgba(0,0,0,0.9) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
-    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.9)) 0 0/35% 100% no-repeat,
+    linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
     url(../images/bg-01.jpg) center/cover no-repeat;
     color:#ffffff;
     }
 
+    /*About Hero Slider Starts*/
+    .four{
+        height:550px;
+        width: 100%;
+        background:
+        linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+        linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+        url(../images/nerds.jpg) left top/cover no-repeat;
+        color:#ffffff;
+        
+        }
+       
+    
+    .five{
+        height:550px;
+        width: 100%;
+        background:
+        linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+        linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+        url(../images/brand2.JPG) center/cover no-repeat;
+        color:#ffffff;
+    }
+    
+    .six{
+        height:550px;
+        width: 100%;
+        background:
+        linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+        linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+        url(../images/data.jpg)top right/cover no-repeat;
+        color:#ffffff;
+        }
+
+        .sixa{
+            height:550px;
+            width: 100%;
+            background:
+            linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+            linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+            url(../images/testing.jpg) center/cover no-repeat;
+            color:#ffffff;
+            }
+            .sixb{
+                height:550px;
+                width: 100%;
+                background:
+                linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+                linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+                url(../images/bounce.jpg) center center/cover no-repeat;
+                color:#ffffff;
+                }
+                .sixc{
+                    height:550px;
+                    width: 100%;
+                    background:
+                    linear-gradient(to bottom right,rgba(0,0,0,0.6) 50%,transparent 50%) 58% 0/40% 100% no-repeat,
+                    linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.6)) 0 0/35% 100% no-repeat,
+                    url(../images/nerds.jpg) center center/cover no-repeat;
+                    color:#ffffff;
+                    }
+        .seven{
+            height:550px;
+            width: 100%;
+            background:
+            linear-gradient(to right,rgba(0,0,0,0.5) 50%,transparent 50%)  100% no-repeat,
+           
+            url(../images/closing-deals.jpg) top/cover no-repeat;
+            color:#ffffff;
+            }
+            .eight{
+                height:550px;
+                width: 100%;
+                background:
+                linear-gradient(to right,rgba(0,0,0,0.5) 100%,transparent 50%)  100% no-repeat,
+               
+                url(../images/closing-deals.jpg) top/cover no-repeat;
+                color:#ffffff;
+                }
+
+    @media (max-width: 576px) { 
+        .one{
+            height:500px;
+            width: 100%;
+            background:
+            linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+           
+            url(../images/achievement-agreement-arms-1068523.jpg) center/cover no-repeat;
+            color:#ffffff;
+            
+            }
+           
+        
+        .two{
+            height:500px;
+            width: 100%;
+            background:
+            linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+            
+            url(../images/alarm-clock-calendar-close-up-908298.jpg) center/cover no-repeat;
+            color:#ffffff;
+        }
+        
+        .three{
+            height:500px;
+            width: 100%;
+            background:
+            linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+           
+            url(../images/bg-01.jpg) center/cover no-repeat;
+            color:#ffffff;
+            }
+        
+            /*About Hero Slider Starts*/
+            .four{
+                height:500px;
+                width: 100%;
+                background:
+                linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+               
+                url(../images/robot-customer-service.jpg) center/cover no-repeat;
+                color:#ffffff;
+                
+                }
+               
+            
+            .five{
+                height:500px;
+                width: 100%;
+                background:
+                linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+                
+                url(../images/robot-customer-service.jpg) center/cover no-repeat;
+                color:#ffffff;
+            }
+            
+            .six{
+                height:500px;
+                width: 100%;
+                background:
+                linear-gradient(to right,rgba(0,0,0,0.6) 100%,transparent 100%)  no-repeat,
+                
+                url(../images/baby.jpg) top/cover no-repeat;
+                color:#ffffff;
+                }
+            footer{
+                text-align: center;
+            }
+            .fine{
+                overflow-x: hidden;
+                max-width: 100%;
+                display: block;
+                height: 300px;
+                margin-bottom: 20px;
+            }
+            ul.footer-social{
+                margin-right: 60px;
+               
+            }
+            .col-sm-4{
+                padding-bottom: 15px;
+                margin-bottom: 10px;
+            }
+            .card-img-top{
+                padding-bottom: 7px;
+            }
+            .navbar-brand{
+    
+            font-size: 40px;
+            padding-left: 20px;
+                }
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                .col-6{
+                    margin-bottom: 15px;
+                    padding-bottom: 15px;
+                }
+    }
+
+.border{    ;
+            margin:5px;}
+    
+
 .red{
     color:#4d0026;
+   
 }
+
 #us{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 30px;
     
+}
+.pro{
+    padding-top: 30px;
 }
 .welcome{
     color: #5C5A5D;
@@ -60,17 +251,17 @@ h2.ben2{
     font-size: 2.5em;
 }
 h1.man{
-    padding-top: 150px;
+    padding-top: 190px;
     font-family: roboto;
 }
 .navbar-brand{
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
-    padding-left: 100px;
+    padding-left: 10px;
 }
 #services{position: relative;
-    padding-bottom: 70px;
-    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 background-color:#f7f7f7;}
 
 #codelabs{position: relative;
@@ -79,13 +270,14 @@ padding-top:15px;
 background-color: #f9f9f9;}
 
 #gallery{background-image: linear-gradient(to bottom right,
-    rgba(148, 13, 130, 0.551),rgba(0, 0, 0, 0.933) ),
+    rgba(148, 13, 130, 0.551),rgba(0, 0, 0, 0.633) ),
     url(..images/web-developer.jpg);
 background-size: cover;
 position:relative;
 padding-bottom: 70px;}
 .fine{
     object-fit: cover;
+    overflow-x: hidden;
     
 }
 /* BLOG CSS Starts here*/
@@ -93,15 +285,18 @@ padding-bottom: 70px;}
     color:#717171;
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 .date{
     font-size: 10pt;
     font-family: 'Open sans';
     margin: 5px 0 0 0;
     text-align: left;
+    letter-spacing: 3px;
 }
 h4.blog{text-align: left;
-    color:#717171;  
+    color:#717171; 
+    padding-top: 15px;
 }
 h4.blog:hover{text-align: left;
     color:#4d0026;
@@ -110,7 +305,28 @@ h4.blog:hover{text-align: left;
 .line{ height: 4px;
     width: 25%;
     background-color:#4d0026;
+    margin: 5px 0 5px ;
 
+}
+.line2{ height: 2px;
+    width: 90%;
+    background-color:#ffffff;
+    margin: 5px 0 5px ;
+
+}
+.new{
+    
+    border-radius: 5px;
+    box-shadow: 5px #4d0026;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.new:hover{
+    /* height: 200px;
+    width: 270px;
+    object-fit: cover; */
+    opacity: 0.6;
 }
 .blog-text{
     font-size: 16px;
@@ -127,12 +343,145 @@ a:hover{
 /* Blog Css ends here */
 .blue{color: #ffffff;
 padding-bottom: 30px;}
+/* Contact Section*/
+#contact-us{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #4d0026;
+    color:#ffffff;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 50px;
+    z-index: 900;
+    border-radius: 15px;
+}
+/* #contact-us:hover{
+    
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #4d0026;
+    color:#ffffff;
+    opacity: 1;
+    cursor: pointer;
+    transition: ease;
+} */
+p#myBtn{
+    border: #4d0026 2px solid;
+    border-radius: 10px;
+    border:#f9f9f9 2px solid;
+}
+p#myBtn:hover{
+    border: #f9f9f9 2px solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #4d0026;
+}
+/* h5.myBtn{
+    border: #4d0026 2px solid;
+    border-radius: 10px;
+    color:#444;
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+    display: none;
+} */
+h5.myBtn:hover{
+    border: #4d0026 2px solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #4d0026;
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+    display: block;
+}
+.card-img-top{
+    object-fit: cover;
+}
+.grey{position: relative;
+    filter :grayscale(80%);
+    object-fit: cover;
+    height: 400px;
+    widows: 350px;
+}
+.grey:hover{
+    filter :grayscale(10%);
+}
+.show .team-name{
+    position: absolute; /* Position the background text */
+    bottom: 15.4%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 97%; /* Full width */
+    padding: 10px; /* Some padding */
+    display: none;
+   
+}
+.show:hover .team-name{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 97%; /* Full width */
+    padding: 10px; /* Some padding */
+    display: block;
+   transition: ease;
+}
+h3.team{
+    color: #ffffff;
+    left: 3%;
+    text-align: left;
+    
+    
+}
 
-footer{background-color: #4d4d4d;
+h5.team{
+   
+    color: #ffffff;
+    left: 3%;
+    text-align: left;
+}
+.show2:hover .client-name{
+    position: absolute; /* Position the background text */
+    bottom: 0;
+    top:0; /* At the bottom. Use top:0 to append it to the top */
+    background: #ffffff; /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 97%; /* Full width */
+    padding: 10px; /* Some padding */
+    display: block;
+   transition: ease;
+}
+h3.client{
+    color: #000;
+    left: 50%;
+    text-align: center;
+    
+    
+}
+
+h5.client{
+   
+    color: #444;
+    left: 50%;
+    text-align: center;
+    bottom: 30%;
+}
+
+h3.contact2{
+    color:white;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+ footer{
+    background-image: url(../images/facts-bg.jpg);
     color: #ffffff;
 position: relative;
 padding-bottom: 50px;
-padding-top: 50px;}
+padding-top: 90px;}
 
 li{display: inline-block;}
  
@@ -166,12 +515,15 @@ font-size: 150%;}
     padding-right:0;
     padding-left:0;
 }
+#projects{
+    background-color: 
+}
 
 
 /* About Us Styling Starts */
 
 #about-hero{background-image: linear-gradient(
-    rgba(34, 13, 148, 0.507),rgba(0, 0, 0, 0.9) ),
+    rgba(34, 13, 148, 0.507),rgba(0, 0, 0, 0.6) ),
     url(../images/about-hero.JPG);
 background-size: cover;
 position:relative;
@@ -181,9 +533,11 @@ height: 600px;}
 h1.about, .top{color:white;
     z-index: 1;
 }
-#intro{padding-bottom: 50px;
-padding-top: 50px;}
-#counter{background-color: #f0f0f0;
+#intro{padding-bottom: 70px;
+padding-top: 70px;
+background-color: #ffffff;
+color: #3f3e3e;}
+#counter{background-color: #f1f0f0;
 padding-bottom: 30px;
 padding-top: 30px;
 }
@@ -193,9 +547,13 @@ h3{
 h3.count{color: #4d0026;
 font-size: 400%}
 #about-gallery{padding-bottom: 50px;
-padding-top: 20px;}
-h1.our{padding-bottom: 50px;
+padding-top: 20px;
+background-color: #ffffff;}
+h1.our{
 padding-top: 50px;}
+p.our{font-size: 1.2rem;
+    padding-bottom: 30px;
+}
 h1.middle{position: relative;
 top:200px;
 color: #ffffff;}
@@ -204,22 +562,25 @@ color: #ffffff;}
 
 /* Contact Us Styling Starts */
 
-#contact-hero{background-image: linear-gradient(
-    rgba(34, 13, 148, 0.507),rgba(0, 0, 0, 0.9) ),
-    url(../images/about-hero.JPG);
+#contact-hero{background-image: url(../images/bonny.jpg);
 background-size: cover;
+background-origin: initial;
+
 position:relative;
 padding-bottom: 70px;
 display:flex;
 height: 600px;}
 
-#mail{background-color: #f0f0f0;
+#mail{background-color: #f8f0f0;
 padding-top: 70px;
 padding-bottom: 70px;}
 
-h2.message{color:#1100aa}
+h2.message{color:#4d0026;}
 ul#footer-social .fa{color: #ffffff;
 position: relative;}
+/* input[type=text]{
+    border: #4d0026 2px solid;
+} */
 
 .btn-danger:hover {
     color: #dc3545;
@@ -237,8 +598,13 @@ position: relative;}
     border-radius: 50%;
     box-shadow: 0px 0px 2px #888;
     padding: 0.5em 0.6em;
-    color:#fff
+    color:#fff;
+    
   
+  }
+  ul.footer-social{
+      margin-left: -50px;
+     
   }
 /* Footer starts here */
   .footer-social i.fa:hover{color:grey;}
@@ -256,7 +622,7 @@ div.icons{
     background-color:#4d0026;
         color: #fff;
         border-color: #4d0026;
-        border-radius: 15px;
+        border-radius: 5px;
         margin-bottom: 15px;
     }
     .btn-info:hover {
@@ -395,7 +761,7 @@ margin-left: 3px; }
   .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-/* Fading animation */
+  /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -404,13 +770,13 @@ margin-left: 3px; }
   }
   
   @-webkit-keyframes fade {
-    0% {transform: scale(1)} 
-    100% {transform: scale (1.4)}
+    from {opacity: .4} 
+    to {opacity: 1}
   }
   
   @keyframes fade {
-    0% {transform: scale(1)} 
-    100% {transform: scale (1.4) }
+    from {opacity: .4} 
+    to {opacity: 1}
   }
 
   /* The dots/bullets/indicators */
@@ -429,7 +795,8 @@ margin-left: 3px; }
     background-color: #717171;
   }
   .align{
-      text-align: justify
+      text-align: justify;
+      /* border: 5px solid #ffffff; */
   }
 
   .square {
@@ -444,20 +811,60 @@ margin-left: 3px; }
     position: relative;
     top: -30px;
   }
-  /* Fading animation */
-  @keyframes fade {
-    from {
-      opacity: 0.0;
-    }
-    to {
-      opacity: 1.0;
-    }
+ 
+
+/*Custom Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
 }
-@keyframes zoom {
-    from {
-      transform: scale(1.0);
-    }
-    to {
-      transform: scale(1.16);
-    }
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
 }
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4d0026; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4d0026; 
+    opacity: 0.8;
+}
+
+/*Imported contact form*/
+
+
+
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+  
+  
+  
+   
+  
+ 
+  
+ 
+  
+ 
+  

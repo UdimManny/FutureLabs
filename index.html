@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>eAcademy| we help you build your latent skills</title>
+    <title>Future Labs| a digital marketing agency</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -14,8 +14,9 @@
     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Aino-fonts/Aino-Headline.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    
+    <?php wp_head(); ?>
 
 
 </head>
@@ -24,7 +25,8 @@
      <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-default navbar-left fixed-top"
              style="background-color: #000000; opacity: 1;">
-                    <a class="navbar-brand" href="#"><span class="red">A</span>gency</a>
+             <div class="container">
+                    <a class="navbar-brand" href="index.html"><span class="red"></span>Future Labs</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -34,32 +36,48 @@
                           <a class="nav-link" href="services.html">Services<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                              </li>
+                        <li class="nav-item">
                           <a class="nav-link" href="projects.html">Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
+                                                <li class="nav-item">
                           <a class="nav-link " href="contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link " href="blog.html">Blog</a>
-                        </li>
+                          <a class="nav-link " href="academy.html">Academy</a>
+                        </li> 
                       </ul>
                     </div>
+                </div>
                   </nav>
           
     </header>
     <!--Header ends-->
     
     <section id="hero">
+
+            <div class="heroSlide zoomIn two">
+                    <div class="container" >
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h1 class="man">We are Future Labs!</h1>
+                                <p class="align">Future Labs is a Digital Agency with global footprints.
+                                    Enhancing User Experience and turning ideas to realities one satisfied client at a time.
+                                </p>
+                                <a href="about.html"><button class="btn btn-info">Learn More</button></a>
+                                <br>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
         <div class="heroSlide zoomIn  one">
         <div class="container" >
             <div class="row">
                 <div class="col-sm-6  align">
-                    <h1 class="align man">We Strategize</h1>
-                    <p class="align">Strategy is at the heart of any success. We take our time sifting through data
-                        and building relationships. Other times a rhetorical question and intuition lays bare the path.
+                    <h1 class="man">We Strategize</h1>
+                    <p class="">Strategy is the soul of success. We take our time sifting through data
+                        and building models. Sometimes we ask rhetorical questions, and intuition lays bare the path.
                         We are masters of digital strategy across all major spectra.
                     </p>
                     <a href="about.html"><button class="btn btn-info">Learn More</button></a>
@@ -69,30 +87,16 @@
             </div>
         </div>
         
-        <div class="heroSlide zoomIn two">
-            <div class="container" >
-                <div class="row">
-                    <div class="col-sm-6  align">
-                        <h1 class="align man">We Build!</h1>
-                        <p class="align">The future was created by men who dreamt it to be better than they met it, Men who were crazy 
-                            enough to believe they could change the world changed it.
-                            Tribute to Steve Jobs, Nelson Mandela, Martin Luther King Jnr, Satoshi Natoshi, Elon Musk, Jack Ma, Gani Fawehinmi, and every other original out there making
-                            a difference.<br> In that same spirit we Arise!!
-                        </p>
-                        <a href="about.html"><button class="btn btn-info">Learn More</button></a>
-                        <br>
-                    </div>
-                </div>
-                </div>
-            </div>
+       
 
         <div class="heroSlide zoomIn  three">
             <div class="container" >
                 <div class="row">
-                    <div class="col-sm-6 align-items-center align">
-                        <h1 class="align man">We tell stories!</h1>
-                        <p class="align">We are multi-potentialites with an innate gifting for telling
-                            compelling stories. We craft stories about products and services that our target niche 
+                    <div class="col-sm-6 align-items-center">
+                        <h1 class="man">We tell stories!</h1>
+                        <p class="">We are Polymaths, gifted at telling
+                    relatable stories on intuitive and responsive media. 
+                    We craft user-centric stories about products and services that our target niche 
                             finds relatable and actionable.
                         </p>
                         <a href="about.html"><button class="btn btn-info">Learn More</button></a>
@@ -101,11 +105,7 @@
                 </div>
                 </div>
             </div>
-    <!-- <div style="text-align:center">
-            <span class="square" onclick="currentSlide(1)"></span> 
-            <span class="square" onclick="currentSlide(2)"></span> 
-            <span class="square" onclick="currentSlide(3)"></span> 
-          </div> -->
+    
          <script src="js/hero-slider.js"></script>
     </section>
     <!--Hero section ends-->
@@ -115,9 +115,9 @@
            <div class="row">
                <div class="offset-sm-2 col-sm-8 text-center welcome">
                    <h2 class="ben2">We create indelible digital experiences</h2>
-                   <p class="ben">We are passsionate corporate & content strategists.
-                       We tell compelling stories and  create relatable content 
-                       about products and services that drives brand adoption.
+                   <p class="ben">We are passionate corporate & content strategists.
+                       Telling compelling stories and  creating relatable content 
+                       about products and services to drive viral brand adoption.
                    </p>
                </div>
            </div>
@@ -127,8 +127,8 @@
         <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
-                            <h2>Our Niches</h2>
-                            <hr style="background-color:#4d0026; width:120px; height:3px">
+                            <h2 style="border-bottom:#4d0026;">Our Niches</h2>
+                            <!-- <hr style="background-color:#4d0026; width:120px; height:3px"> -->
                     <br></div>
                 </div>
                 <div class="row">
@@ -137,21 +137,21 @@
                                 <i class="fa fa-diamond" style="font-size:70px; color:#4d0026;"></i>
                             <h3>Strategy</h3>
                             
-                            <p class="align">
-                                We develop corporate strategies to set your brand apart from the rest. Content and brand strategizing - our
-                                forte - is at the heart
-                                of digital marketing . We enhance your brand visibility with data backed methods that deliver results.
+                            <p class="text-left">
+                                Others call it Branding, we call it Strategy, we create corporate strategies that sets your brand apart. Content and brand strategizing - our
+                                forte - is the heart
+                                of digital marketing. We enhance your brand visibility with data methods that deliver results.
                             </p>
-                
+                       
                         </div>
                         <div class="col-sm-4">
                                 <i class="fa fa-rocket" style="font-size:70px; color:#4d0026;"></i>
-                                <h3>Web & App Development</h3>
+                                <h3>Software</h3>
                                 
-                                <p class="align">
-                                    We are masters of the web and native. No matter the stack your project requires, we have developers that
+                                <p class="text-left">
+                                    We are masters of the web and native. Whatever your project stack, we have developers that
                                      will bring
-                                    your ideas to life, our purpose is delivering cost effective solutions that will keep your brand ahead of the
+                                    your ideas to life, our purpose is delivering cost effective solutions keeping  brands ahead of the
                                      competition.
                                 </p>
                     </div>
@@ -159,27 +159,27 @@
                             <i class="fa fa-pencil" style="font-size:70px; color:#4d0026;"></i>
                             <h3>UI/UX</h3>
                             
-                            <p class="align">
-                            We think in design and see with imagination. we design user interfaces, draw in colors and ensure your users stay absorbed on your platform.
+                            <p class="text-left">
+                            We think in design and see with imagination. we design user interfaces, draw in colors and ensure users stay absorbed on variables platforms.
                             Be it Magazines, Brochures, Digital interfaces, etc. Our Watchword is excellence. 
                             </p>
                 </div>
                 <div class="w-100"></div>
                 <div class="col-sm-4">
                     <i class="fa fa-android" style="font-size:70px; color:#4d0026;"></i>
-                    <h3>Native</h3>
+                    <h3>Training</h3>
                     
-                    <p class="align">
-                        From Android to iOS development, we build and ship your native apps using a variety of technologies. Our
-                        design and execution are always intuitive and flawless. We build for retention.
+                    <p class="text-left">
+                            We teach beginners to code, polish up intermediate developers, and provide start up incubation for creatives.
+                             Do you have the next earth shaking idea - Bitcoin, Paypal, iPhone or Facebook? - come turn your idea to reality.
                     </p>
         </div>
         <div class="col-sm-4">
             <i class="fa fa-bitcoin" style="font-size:70px; color:#4d0026;"></i>
             <h3>Fintech</h3>
             
-            <p class="align">
-            Blockchain powered finance is the future. We are part of the tokenizing race. Imagine a world 
+            <p class="text-left">
+            Blockchain is the future. We are part of the tokenizing race. Imagine a world 
             where freedom is the program,
             your wallets anonymously banks you, and crypto mining
             and  smart contracts reduces extreme poverty?
@@ -187,131 +187,23 @@
 </div>
 <div class="col-sm-4">
     <i class="fa fa-cogs" style="font-size:70px; color:#4d0026;"></i>
-    <h3>Hardware</h3>
+    <h3>Tech Content</h3>
     
-    <p class="align">
-    From electric cars to Mars bound rockets, drones and enhanced robots. The future is optimized hardware.
-    We are pushing the frontiers of hardware. That was what we started with. 
+    <p class="text-left">
+        <!-- We started selling as Tarilade, Technology article writers. -->
+        We are chronicling and building the next Industrial age. We
+         love writing about Artificial Intelligence, 
+        Space Force(S), IoT, Cryptocurreny and Blockchain, Machine Learning, 3D Printing and Renewable Energy. 
+
+    <!-- From electric cars to Mars bound rockets, drones and enhanced robots. The future is optimized hardware.
+    We are pushing the frontiers of hardware. That was what we started with.  -->
     </p>
 </div>
            </div> 
         </div>
         </section>
 
-        <!-- <section id="codelabs">
-                <div class="container">
-                        <div class="row">
-                                <div class="col-sm-12">
-                                    <h2 class="text-center">Trainings Held</h2>
-                                    <hr style="background-color:#4d0026; width:120px; height:3px">
-                                    <br>
-                                    
-                </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-
-                                    </div>
-                                    <div class="col-sm-8">
-                                            <div class="row">
-                                                    <div class="card mySlide fadeIn">
-                          
-                                                            <div class="row">
-                                                                
-                                                                    
-            <div class="col-md-6">
-              <div class="card-img-bottom">
-         <img src="images/facebook.jpg" class="card-img-bottom" width="300" height="300">
-                         </div>
-                </div>
-                                        
-                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
-                                                                <div class="card-block">
-                                                                  <h3 class="card-title text-center">Code Lab Sessions</h3>
-                                                                  <p>We roll like bosses, Mark has been here, even Natoshi came around. 
-                                                                      The nations foremost finance lab was birthed here. We taking over from 
-                                                                        the heart of Africa by taking the Jack Ma approach.We roll like bosses, 
-                                                                        Mark has been here, even Natoshi came around. The nations foremost finance lab was birthed here.</p>
-                                                                    
-                                                                  <a class="btn btn-info">Read More</a>
-                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)"></i>
-                                                                </div>
-                                                              </div>
-                                                              
-                                                             
-                                                            </div>
-                                                           
-                                                          </div>
-                                                          <div class="card mySlide fade">
-                          
-                                                            <div class="row">
-                                                                
-                                                                    
-            <div class="col-md-6">
-              <div class="card-img-bottom">
-         <img src="images/meetups.JPG" class="card-img-bottom" width="300" height="300">
-                         </div>
-                </div>
-                                        
-                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
-                                                                <div class="card-block">
-                                                                  <h3 class="card-title text-center">HNG</h3>
-                                                                  <p>According to Mr.David Inyangetoh, the Hotels.ng internship is a movement and we 
-                                                                      encouraged our interns to join in and learn real life coding experience.
-                                                                    Mr.Mark has been nurturing great talent per season of the competition . </p>
-                                                                    
-                                                                  <a  class="btn btn-info" >Read More</a>
-                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)" ></i>
-                                                                </div>
-                                                              </div>
-                                                              
-                                                             
-                                                            </div>
-                                                           
-                                                          </div>
-                                                          <div class="card mySlide fade">
-                          
-                                                            <div class="row">
-                                                                
-                                                                    
-            <div class="col-md-6">
-              <div class="card-img-bottom">
-         <img src="images/coders.JPG" class="card-img-bottom" width="300" height="300">
-                         </div>
-                </div>
-                                        
-                         <div class="col-md-6 " style="margin-left:0px; margin-right:0px;">
-                                                                <div class="card-block">
-                                                                  <h3 class="card-title text-center">Freecodecamp</h3>
-                                                                  <p>Our best developers were forged on Freecodecamp. It now comes with revised curriculum, longer practices
-                                                                      and everything you could think of on a paid platform, but ironically it's free. Thank you Ossia.
-                                                                  </p>                                                  
-                                                                  <a class="btn btn-info">Read More</a>
-                                                                  <i class="fa fa-chevron-circle-down fa-2x arrow next" onclick="plusSlides(1)" ></i>
-                                                                </div>
-                                                              </div>
-                                                              
-                                                             
-                                                            </div>
-                                                           
-                                                          </div>
-                                            </div>
-                                    </div>
-                                    
-                                </div>
-                               
-                                
-                </div>
-                <div style="text-align:center">
-                        <span clascs="dot" onclick="currentSlide(1)"></span> 
-                        <span class="dot" onclick="currentSlide(2)"></span> 
-                        <span class="dot" onclick="currentSlide(3)"></span> 
-                      </div>
-                <script src="js/training-slider.js">
         
-       
- </script>
-              </section> -->
 
 
            
@@ -319,23 +211,23 @@
 </section>
 <!--project begins-->
 
-<section id="gallery" class= "wow fadeIn" data-wow-duration="2.5s" data-wow-delay="0.1s">
+<section id="gallery" >
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="text-center blue" >Projects Worked On</h2>
+                <h2 class="text-center blue" >Projects</h2>
                 <hr style="background-color:#ffffff; width:120px; height:3px;">
                 <br>
             </div>
         </div>
         <div class="row">
             
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 wow slideInUp" data-wow-duration="0.3s" data-wow-delay="0.1s" transition="easeIn">
                     
                     <div class="ara">
-             <a href="https://udimobong.wordpress.com/2016/02/07/nigeria-the-challenge-of-diversification-and-industrialisation/" 
+             <a href="https://ecta.io" 
              target="_blank"> 
-             <img class="card-img-top" src="images/ecta.jpg" width="300px" height="" 
+             <img class="card-img-top" src="images/ecta.jpg" width="320px" height="270px" 
              alt="Card image cap"> </a>
              <div class="overlay">
                 <div class="text text-center"><h3 class="white">Ecta.io</h3>
@@ -348,10 +240,10 @@
             
             </div></div>
           
-               <div class="col-sm-6 col-md-4">
+               <div class="col-sm-6 col-md-4 wow slideInUp" data-wow-duration="0.3s" data-wow-delay="0.1s" transition="easeIn">
                     <div class="ara">
                    <a href="https://udimobong.wordpress.com/2016/07/25/what-exactly-is-buhari-offering-us/">
-              <img  class="card-img-top " src="images/ecta.jpg" width="300px" height="" 
+              <img  class="card-img-top " src="images/diginex.jpg" width="320px" height="270px" 
               alt="Card image cap" target="_blank" style="object-fit: cover;">
              </a>
              <br>
@@ -359,26 +251,25 @@
             
              <div class="overlay">
                 <div class="text text-center">
-                    <h3 class="white">Humble</h3>
-                <p>HF is a home finishing specialist demonstrating the power 
-                    of paradox.
+                    <h3 class="white">Diginex</h3>
+                <p>Diginex is an industry leader in the Crypto space.
                 </p>
-                <a href="http://humblefinishings.com.ng" target="_blank"><button class="btn btn-info">Go</button></a>
+                <a href="http://diginex.com" target="_blank"><button class="btn btn-info">Go</button></a>
             </div>
               </div>
             </div></div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 wow slideInUp" data-wow-duration="0.3s" data-wow-delay="0.1s" transition="easeIn">
                     
                 <div class="ara">
          <a href="https://udimobong.wordpress.com/2016/02/07/nigeria-the-challenge-of-diversification-and-industrialisation/" 
          target="_blank"> 
-         <img class="card-img-top" src="images/ecta.jpg" width="300px" height="" 
+         <img class="card-img-top" src="images/formed.jpg"  width="320px" height="270px" style="object-fit:cover;" 
          alt="Card image cap"> </a>
          <div class="overlay">
-            <div class="text text-center"><h3 class="white">T-Dombai</h3>
-            <p>Engineering experts focused on power generation and distribution.
+            <div class="text text-center"><h3 class="white">FormedByMe</h3>
+            <p>No pain,no Gain. We helped them tell their story better.
             </p>
-            <a href="http://techno-dombai.com.ng" target="_blank"><button class="btn btn-info">Go</button></a>
+            <a href="http://formedbyme.com" target="_blank"><button class="btn btn-info">Go</button></a>
         </div>
           </div>
         
@@ -387,7 +278,7 @@
 
     </div>
 </section>
-<section id="blog" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+<section id="blog" class="wow fadeIn" data-wow-duration="0.3s" data-wow-delay="0.1s">
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -399,9 +290,9 @@
 
 <div class="row">
     <div class="col-sm-4">
-        <a href="http://udimobong.wordpress.com">
-            <img class="card-img-top" src="images/fb start.jpg_large" width="300px" height="300px" alt="Card image cap">
-            <h4 class="blog">Facebook Startup Accelerator</h4>
+        <a href="http://inevitablesteps.com/marketing/coca-cola-marketing-strategy/" index="-blank">
+            <img class="new" src="images/coke.jpg"  alt="Card image cap">
+            <h4 class="blog">The Coca-Cola Strategy</h4>
             <div class="date">
                 8 July, 2018
             </div>
@@ -409,108 +300,118 @@
 
             </div>
             <div class="blog-text">
-                    I have serious passion for UI effects, animations and 
-                    creating intuitive, dynamic user experiences.
+                    Coca-Cola focuses on improving the community relationships
+                     and increasing their happiness, that positively reflects on their public image, 
+                     resulting in customer and revenue rise.
             </div>
         </a></div>
     
         <div class="col-sm-4">
-                <a href="http://udimobong.wordpress.com">
-                    <img class="card-img-top" src="images/August.JPG" width="300px" height="300px" alt="Card image cap">
-                    <h4 class="blog">Facebook Startup Accelerator</h4>
+                <a href="https://hbr.org/2012/06/get-ready-to-fail">
+                    <img class="new " src="images/baby.jpg"  alt="Card image cap">
+                    <h4 class="blog">Get Ready to Fail</h4>
                     <div class="date">
-                        8 July, 2018
+                        04 July, 2012
                     </div>
                     <div class="line">
         
                     </div>
                     <div class="blog-text">
-                            I have serious passion for UI effects, animations and 
-                            creating intuitive, dynamic user experiences.
+                            You will fail. It’s inevitable, so you 
+                            might as well begin preparing for it now. The failure may be small, 
+                            like, say, making a mistake on a client engagement.
                     </div>
                 </a></div>
                 <div class="col-sm-4">
-                        <a href="http://udimobong.wordpress.com">
-                            <img class="card-img-top" src="images/meetups.JPG" width="300px" height="300px" alt="Card image cap">
-                            <h4 class="blog">Facebook Startup Accelerator</h4>
+                        <a href="https://pmarchive.com/guide_to_career_planning_part2.html" >
+                            <img class="new" src="images/Skills.jpg"  alt="Card image cap">
+                            <h4 class="blog">Skills and education</h4>
                             <div class="date">
-                                8 July, 2018
+                                1 October, 2007
                             </div>
                             <div class="line">
                 
                             </div>
                             <div class="blog-text">
-                                    I have serious passion for UI effects, animations and 
-                                    creating intuitive, dynamic user experiences.
+                                    Don't worry about being a small fish in a big pond -- you want to always be in the 
+                                    best pond possible, because that's how you will get exposed to the best people and 
+                                    the best opportunities.
                             </div>
                         </a></div>
+                        
     </div>
 </div>
+ 
 
-
-
-
-    <!-- <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="images/fb start.jpg_large" width="300px" height="300px" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Facebook Startup Accelerator</h5>
-              
-            </div>
-          </div>
-        <div class="card">
-          <img class="card-img-top" src="images/August.jpg" width="300px" height="300px" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">August Trainings</h5>
-            
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="Images/meetups.jpg" width="300px" height="300px" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">TEEF Grant</h5>
-           
-          </div>
-        </div>
-</div> -->
 </div>
 </section>
 
-<footer>
-        <div class="container">
+<section id="contact-us">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-sm-4">
-                        <h4>About Us</h4>
-                    <p class="footer">The world was built by men who dreamt of the impossible and acted on their convictions,
-                        think of Mandela, Martin Luther, Steve Jobs, Satoshi Nakamoto, et al. Our mission is to raise hybrid
-                        tech giants that will rewrite the African tech story by bridging the African and global manpower deficit.</p>
-                                        </div> 
-                <div class="col-sm-4">
-                    <div class="arrange">
-                    <h4>CONTACTS</h4>
-                    <p class="footer"><span class="fa fa-map-marker"></span>312 Newark Lane,New Jersey, U.S.A</p>
-                    <p class="footer"><span class="fa fa-mobile-phone"></span> +160726007432</p>
-                    <p class="footer"><span class="fa fa-envelope"></span> info@eAcademy.com</p>
-                    <ul class="footer-social">
-                        <li><a href="http://www.twitter.com/udimobong" target="_blank"><i class="fa fa-twitter " title="Twitter" ></i></a></li>
-                        <li><a href="http://www.facebook.com/manassehv" target="_blank"><i  class="fa fa-facebook" title="Facebook"></i></a></li>
-                        <li><a href="http://www.linkedin.com/udimmanny" target="_blank"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
-                        <li><a href="http://github.com/UdimManny" target="_blank"><i class="fa fa-github " title="GitHub"></i></a></li>
-                    </ul>     </div></div>
-                <div class="col-sm-4">
-                    <h4>Let's Get In Touch!</h4>
-                   <p class="footer"> Sign up to recieve our newsletters about industry trends.</p>
-                        <form class="form-inline">
-                            
-                                <input class="form-control w-75 mr-sm-2" type="search" placeholder="Enter your Email" aria-label="Search">
-                                <button class="btn btn-info my-2 my-sm-0" type="submit">Send</button>
-                              </form>
+                <div class="col-md-4">
+                    <h3 class="contact2">New project?</h3>
+                     
+                </div>
+                <div class="col-md-4">
+                    <p>Tell us about your new project - we'd love to tell you how we could bring it to life.</p>
+                </div>
+                <div class="col-md-4"> 
+                       <a href="contact.html"> <p id="myBtn" class="btn btn-default">Let's get started</p></a>
                 </div>
             </div>
         </div>
-    </footer>
+       
+    </section>
+
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                            <h4>About Academie</h4>
+                        <p class="footer">We are a dedicated team of creative and innovative Content and Corporate Strategists, Designers,
+                             Developers, and Leaders; we will help you build your project ideas into the reality you hope to create..</p>
+                                            </div> 
+                    <div class="col-sm-4">
+                        <div class="arrange">
+                        <h4>Contact Us</h4>
+                        <!-- <p class="footer"><span class="fa fa-map-marker"></span> 312 Newark Lane, New Jersey, U.S.A</p> -->
+                        <p class="footer"><span class="fa fa-mobile-phone"></span> +160726007432</p>
+                        <p class="footer"><span class="fa fa-envelope"></span> hello@Academie.io</p>
+                        <!-- <h4>Follow Us</h4>
+                        <ul class="footer-social text-left">
+                            <li><a href="http://www.twitter.com/Academie" target="_blank"><i class="fa fa-twitter " title="Twitter" ></i></a></li>
+                            <li><a href="http://www.facebook.com/Academie" target="_blank"><i  class="fa fa-facebook" title="Facebook"></i></a></li>
+                            <li><a href="http://www.linkedin.com/Academie" target="_blank"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
+                            
+                        </ul> -->    </div></div> 
+                    <div class="col-sm-4">
+                        <h4>Let's Get In Touch!</h4>
+                       <p class="footer"> Sign up to receive our newsletters about industry trends.</p>
+                            <form class="form-inline">
+                                <div class="input-group"></div>
+                                    <input class="form-control w-75 mr-sm-0 rounded-0" type="search" placeholder="Enter your Email" aria-label="Search">
+                                    <button class="btn btn-info my-2 my-sm-0" style="line-height: 1.7em;" type="submit">Send</button>
+                                  </form>
+                    </div>
+                
+                    <div class="col-md-4  text-center">
+                        <!-- <div class="line2 text-center"></div> -->
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        <section id="end" style="background-color:#4d0026; padding-top: 10px; padding-bottom: 10px; color: #ffffff;">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    &copy; Tarilade 2018
+                </div>
+            </div>
+        </div></section>
     
-    <section id="block" style="background-color:#4d0026; border: 4px #4d0026 solid; height:20px;">
+    
         
             
         </section>

@@ -21,6 +21,29 @@
 
 </head>
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="103896544432539">
+    </div>
      <!-- sticky header starts-->
      <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-default navbar-left fixed-top"
@@ -110,7 +133,7 @@
     </section>
     <!--Hero section ends-->
    
-   <section id="us" class= "wow fadeIn" data-wow-duration="3.5s" data-wow-delay="0.2s">
+   <section id="us" class= "wow fadeIn" data-wow-duration="3.5s" data-wow-delay="1.2s">
        <div class="container">
            <div class="row no-gutters">
                <div class=" col-sm-12 text-center welcome">
@@ -184,30 +207,24 @@
         </div></div>
         <div class="col-sm-4">
             <div class="cardie">
-            <i class="fa fa-bitcoin" style="font-size:70px; color:#4d0026;"></i>
+            <i class="fa fa-bullhorn" style="font-size:70px; color:#4d0026;"></i>
             <!-- <img src="images/writers.jpg" class="img-fluid"> -->
-            <h3>Fintech</h3>
+            <h3>Digital Marketing</h3>
             
             <p class="text-left">
-            Blockchain is the future. We are part of the tokenizing race. Imagine a world 
-            where freedom is the program,
-            your wallets anonymously banks you, and crypto mining
-            and  smart contracts reduces extreme poverty?
+            Unknown businesses ultimately die, we help brands place ads in front of willing buyers right 
+            when they need it. Facebook, Instagram, Google? We'll help you optimize and place your ads in front of willing buyers.
             </p>
 </div></div>
 <div class="col-sm-4">
     <div class="cardie">
-    <i class="fa fa-cogs" style="font-size:70px; color:#4d0026;"></i>
-    <h3>Tech Content</h3>
+    <i class="fa fa-facebook" style="font-size:70px; color:#4d0026; background: transparent;"></i>
+    
+    <h3>Social Media</h3>
     
     <p class="text-left">
-        <!-- We started selling as Tarilade, Technology article writers. -->
-        We are chronicling and building the next Industrial age. We
-         love writing about Artificial Intelligence, 
-        Space Force(S), IoT, Cryptocurreny and Blockchain, Machine Learning, 3D Printing and Renewable Energy. 
-
-    <!-- From electric cars to Mars bound rockets, drones and enhanced robots. The future is optimized hardware.
-    We are pushing the frontiers of hardware. That was what we started with.  -->
+    Social Media is the future of marketing, we help brands connect with their target audience without sounding salesy or nagging
+    , we are specialists at taking engagements from zero to "buying" in record time.
     </p>
 </div></div>
            </div> 
@@ -278,7 +295,7 @@
          alt="Card image cap"> </a>
          <div class="overlay">
             <div class="text text-center"><h3 class="white">FormedByMe</h3>
-            <p>No pain,no Gain. We helped them tell their story better.
+            <p>We told an extraordinary story about an extraordinary company.
             </p>
             <a href="http://formedbyme.com" target="_blank"><button class="btn btn-info">Go</button></a>
         </div>

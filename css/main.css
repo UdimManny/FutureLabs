@@ -893,5 +893,10 @@ label {
   
  
   
- 
+ .acada2{
+    background-image: url("../images/fourpoints.jpg"), linear-gradient(black, white);  
+    
+    
+    height: 400px;
+ }
   
